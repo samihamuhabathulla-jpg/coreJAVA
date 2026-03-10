@@ -1,0 +1,22 @@
+package worksheet.java;
+
+import java.util.Scanner;
+public class divisor {
+	    public static void main(String[] args) {
+
+	        Scanner sc = new Scanner(System.in);
+            int num;
+            System.out.print("Enter a number: ");
+	        num = sc.nextInt();
+
+	        if (7 % num == 0) {
+	            System.out.println(num + " is a divisor of 7");
+	        }
+
+	        sc.close();
+	    }
+}
+	
+
+
+
